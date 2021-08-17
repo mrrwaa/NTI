@@ -1,0 +1,21 @@
+{{>header}}
+{{>nav}}
+<section class="container my-5">
+    <h3 class="text-muted">Edite </h3>
+<form method="post">
+    <div class="mb-3 ">
+        <input name="name" placeholder="name" class="form-control" value={{user.name}}>
+    </div>
+    <div class="mb-3">
+        <input name="balance" placeholder="balance" class="form-control" value={{user.balance}} >
+    </div>
+   
+
+    <div class="mb-3">
+        <input type="submit" value="Edit" class="btn btn-dark">
+    </div>
+</form>
+
+</section>
+
+{{>footer}}
